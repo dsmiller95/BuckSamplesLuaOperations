@@ -2556,17 +2556,17 @@ MonoBehaviour:
       ConstantValue: {x: 0, y: 0, z: 0, w: 0}
       Variable: {fileID: 0}
   m_boolOperations: []
-  m_numberOperations:
-  - m_numberA: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
-    m_operation: 1
-    m_rightHandArithmetic: 3
+  m_numberOperations: []
+  m_luaNumberOperations:
+  - m_expression: nA + nB * 0.5
+    m_numberA: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
     m_numberB:
       UseVariable: 1
-      ConstantValue: 2
+      ConstantValue: 0
       Variable: {fileID: 11400000, guid: eaf4fee2356a8914e97f2a46c05a1f59, type: 2}
     m_numberC:
       UseVariable: 0
-      ConstantValue: 0.5
+      ConstantValue: 0
       Variable: {fileID: 0}
     m_rounding: 0
     m_raiseEvent:
@@ -2574,12 +2574,11 @@ MonoBehaviour:
       ConstantValue: 1
       Variable: {fileID: 0}
     m_serialized: 1
-  - m_numberA: {fileID: 11400000, guid: 2a3f20a679db732499c8e16cf4fe89a3, type: 2}
-    m_operation: 2
-    m_rightHandArithmetic: 0
+  - m_expression: nA - 6
+    m_numberA: {fileID: 11400000, guid: 2a3f20a679db732499c8e16cf4fe89a3, type: 2}
     m_numberB:
       UseVariable: 0
-      ConstantValue: 6
+      ConstantValue: 0
       Variable: {fileID: 0}
     m_numberC:
       UseVariable: 0
@@ -2591,7 +2590,6 @@ MonoBehaviour:
       ConstantValue: 1
       Variable: {fileID: 0}
     m_serialized: 1
-  m_luaNumberOperations: []
   m_vectorOperations: []
 --- !u!114 &754157648
 MonoBehaviour:
@@ -3169,13 +3167,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_conditions: []
   m_boolOperations: []
-  m_numberOperations:
-  - m_numberA: {fileID: 11400000, guid: 2a3f20a679db732499c8e16cf4fe89a3, type: 2}
-    m_operation: 1
-    m_rightHandArithmetic: 0
+  m_numberOperations: []
+  m_luaNumberOperations:
+  - m_expression: nA + 4
+    m_numberA: {fileID: 11400000, guid: 2a3f20a679db732499c8e16cf4fe89a3, type: 2}
     m_numberB:
       UseVariable: 0
-      ConstantValue: 4
+      ConstantValue: 0
       Variable: {fileID: 0}
     m_numberC:
       UseVariable: 0
@@ -3187,7 +3185,6 @@ MonoBehaviour:
       ConstantValue: 1
       Variable: {fileID: 0}
     m_serialized: 1
-  m_luaNumberOperations: []
   m_vectorOperations: []
 --- !u!1 &1014770499
 GameObject:
@@ -4211,13 +4208,13 @@ MonoBehaviour:
       ConstantValue: {x: 0, y: 0, z: 0, w: 0}
       Variable: {fileID: 0}
   m_boolOperations: []
-  m_numberOperations:
-  - m_numberA: {fileID: 11400000, guid: 2a3f20a679db732499c8e16cf4fe89a3, type: 2}
-    m_operation: 3
-    m_rightHandArithmetic: 0
+  m_numberOperations: []
+  m_luaNumberOperations:
+  - m_expression: nA * 1.1
+    m_numberA: {fileID: 11400000, guid: 2a3f20a679db732499c8e16cf4fe89a3, type: 2}
     m_numberB:
       UseVariable: 0
-      ConstantValue: 1.1
+      ConstantValue: 0
       Variable: {fileID: 0}
     m_numberC:
       UseVariable: 0
@@ -4229,7 +4226,6 @@ MonoBehaviour:
       ConstantValue: 1
       Variable: {fileID: 0}
     m_serialized: 1
-  m_luaNumberOperations: []
   m_vectorOperations: []
 --- !u!114 &1650772053
 MonoBehaviour:
@@ -5144,25 +5140,24 @@ MonoBehaviour:
       ConstantValue: {x: 0, y: 0, z: 0, w: 0}
       Variable: {fileID: 0}
   m_boolOperations: []
-  m_numberOperations:
-  - m_numberA: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
-    m_operation: 2
-    m_rightHandArithmetic: 0
+  m_numberOperations: []
+  m_luaNumberOperations:
+  - m_expression: nA - 4
+    m_numberA: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
     m_numberB:
-      UseVariable: 0
-      ConstantValue: 4
-      Variable: {fileID: 11400000, guid: 37b208486db08dc458a96283dfcdd1eb, type: 2}
-    m_numberC:
       UseVariable: 0
       ConstantValue: 0
       Variable: {fileID: 0}
+    m_numberC:
+      UseVariable: 0
+      ConstantValue: 0
+      Variable: {fileID: 11400000, guid: 37b208486db08dc458a96283dfcdd1eb, type: 2}
     m_rounding: 0
     m_raiseEvent:
       UseVariable: 0
       ConstantValue: 1
       Variable: {fileID: 0}
     m_serialized: 1
-  m_luaNumberOperations: []
   m_vectorOperations: []
 --- !u!114 &1901465449
 MonoBehaviour:
