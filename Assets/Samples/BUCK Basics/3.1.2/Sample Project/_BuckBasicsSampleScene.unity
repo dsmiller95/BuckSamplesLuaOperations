@@ -336,59 +336,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32504ef65547804ca83d5a22685440f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_conditions:
-  - m_variableType: 1
-    m_boolA:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberA:
-      UseVariable: 1
-      ConstantValue: 0
-      Variable: {fileID: 11400000, guid: 2a3f20a679db732499c8e16cf4fe89a3, type: 2}
-    m_vectorA:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
-    m_comparison: 5
-    m_boolB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberB:
-      UseVariable: 0
-      ConstantValue: 20
-      Variable: {fileID: 0}
-    m_vectorB:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
-  - m_variableType: 0
-    m_boolA:
-      UseVariable: 1
-      ConstantValue: 0
-      Variable: {fileID: 11400000, guid: 22a541e264921874a93167951c4e0518, type: 2}
-    m_numberA:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_vectorA:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
-    m_comparison: 0
-    m_boolB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_vectorB:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
+  m_conditions: []
+  m_luaConditions:
+  - m_expression: nA >= 20
+    m_boolA: {fileID: 0}
+    m_boolB: {fileID: 0}
+    m_numberA: {fileID: 11400000, guid: 2a3f20a679db732499c8e16cf4fe89a3, type: 2}
+    m_numberB: {fileID: 0}
+  - m_expression: not bA
+    m_boolA: {fileID: 11400000, guid: 22a541e264921874a93167951c4e0518, type: 2}
+    m_boolB: {fileID: 0}
+    m_numberA: {fileID: 0}
+    m_numberB: {fileID: 0}
   m_boolOperations:
   - m_boolA: {fileID: 11400000, guid: 22a541e264921874a93167951c4e0518, type: 2}
     m_operation: 0
@@ -1040,33 +999,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32504ef65547804ca83d5a22685440f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_conditions:
-  - m_variableType: 1
-    m_boolA:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberA:
-      UseVariable: 1
-      ConstantValue: 0
-      Variable: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
-    m_vectorA:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
-    m_comparison: 4
-    m_boolB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_vectorB:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
+  m_conditions: []
+  m_luaConditions:
+  - m_expression: nA > 0
+    m_boolA: {fileID: 0}
+    m_boolB: {fileID: 0}
+    m_numberA: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
+    m_numberB: {fileID: 0}
   m_boolOperations: []
   m_numberOperations: []
   m_luaNumberOperations: []
@@ -1931,6 +1870,7 @@ MonoBehaviour:
       UseVariable: 0
       ConstantValue: {x: 0, y: 0, z: 0, w: 0}
       Variable: {fileID: 0}
+  m_luaConditions: []
   m_boolOperations:
   - m_boolA: {fileID: 11400000, guid: 22a541e264921874a93167951c4e0518, type: 2}
     m_operation: 0
@@ -2502,59 +2442,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32504ef65547804ca83d5a22685440f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_conditions:
-  - m_variableType: 1
-    m_boolA:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberA:
-      UseVariable: 1
-      ConstantValue: 0
-      Variable: {fileID: 11400000, guid: 2a3f20a679db732499c8e16cf4fe89a3, type: 2}
-    m_vectorA:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
-    m_comparison: 5
-    m_boolB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberB:
-      UseVariable: 0
-      ConstantValue: 6
-      Variable: {fileID: 0}
-    m_vectorB:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
-  - m_variableType: 1
-    m_boolA:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberA:
-      UseVariable: 1
-      ConstantValue: 0
-      Variable: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
-    m_vectorA:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
-    m_comparison: 2
-    m_boolB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberB:
-      UseVariable: 1
-      ConstantValue: 6
-      Variable: {fileID: 11400000, guid: eaf4fee2356a8914e97f2a46c05a1f59, type: 2}
-    m_vectorB:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
+  m_conditions: []
+  m_luaConditions:
+  - m_expression: nA >= 6
+    m_boolA: {fileID: 0}
+    m_boolB: {fileID: 0}
+    m_numberA: {fileID: 11400000, guid: 2a3f20a679db732499c8e16cf4fe89a3, type: 2}
+    m_numberB: {fileID: 0}
+  - m_expression: nA < nB
+    m_boolA: {fileID: 0}
+    m_boolB: {fileID: 0}
+    m_numberA: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
+    m_numberB: {fileID: 11400000, guid: eaf4fee2356a8914e97f2a46c05a1f59, type: 2}
   m_boolOperations: []
   m_numberOperations: []
   m_luaNumberOperations:
@@ -3166,6 +3065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_conditions: []
+  m_luaConditions: []
   m_boolOperations: []
   m_numberOperations: []
   m_luaNumberOperations:
@@ -4180,33 +4080,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32504ef65547804ca83d5a22685440f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_conditions:
-  - m_variableType: 1
-    m_boolA:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberA:
-      UseVariable: 1
-      ConstantValue: 0
-      Variable: {fileID: 11400000, guid: 2a3f20a679db732499c8e16cf4fe89a3, type: 2}
-    m_vectorA:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
-    m_comparison: 4
-    m_boolB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_vectorB:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
+  m_conditions: []
+  m_luaConditions:
+  - m_expression: nA > 0
+    m_boolA: {fileID: 0}
+    m_boolB: {fileID: 0}
+    m_numberA: {fileID: 11400000, guid: 2a3f20a679db732499c8e16cf4fe89a3, type: 2}
+    m_numberB: {fileID: 0}
   m_boolOperations: []
   m_numberOperations: []
   m_luaNumberOperations:
@@ -4494,33 +4374,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32504ef65547804ca83d5a22685440f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_conditions:
-  - m_variableType: 1
-    m_boolA:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberA:
-      UseVariable: 1
-      ConstantValue: 0
-      Variable: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
-    m_vectorA:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
-    m_comparison: 4
-    m_boolB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_vectorB:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
+  m_conditions: []
+  m_luaConditions:
+  - m_expression: nA > 0
+    m_boolA: {fileID: 0}
+    m_boolB: {fileID: 0}
+    m_numberA: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
+    m_numberB: {fileID: 0}
   m_boolOperations: []
   m_numberOperations: []
   m_luaNumberOperations: []
@@ -5112,33 +4972,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32504ef65547804ca83d5a22685440f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_conditions:
-  - m_variableType: 1
-    m_boolA:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberA:
-      UseVariable: 1
-      ConstantValue: 0
-      Variable: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
-    m_vectorA:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
-    m_comparison: 4
-    m_boolB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_vectorB:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
+  m_conditions: []
+  m_luaConditions:
+  - m_expression: nA > 0
+    m_boolA: {fileID: 0}
+    m_boolB: {fileID: 0}
+    m_numberA: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
+    m_numberB: {fileID: 0}
   m_boolOperations: []
   m_numberOperations: []
   m_luaNumberOperations:
@@ -5513,33 +5353,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32504ef65547804ca83d5a22685440f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_conditions:
-  - m_variableType: 1
-    m_boolA:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberA:
-      UseVariable: 1
-      ConstantValue: 0
-      Variable: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
-    m_vectorA:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
-    m_comparison: 4
-    m_boolB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_vectorB:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
+  m_conditions: []
+  m_luaConditions:
+  - m_expression: nA > 0
+    m_boolA: {fileID: 0}
+    m_boolB: {fileID: 0}
+    m_numberA: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
+    m_numberB: {fileID: 0}
   m_boolOperations: []
   m_numberOperations: []
   m_luaNumberOperations: []
@@ -5739,33 +5559,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32504ef65547804ca83d5a22685440f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_conditions:
-  - m_variableType: 1
-    m_boolA:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberA:
-      UseVariable: 1
-      ConstantValue: 0
-      Variable: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
-    m_vectorA:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
-    m_comparison: 4
-    m_boolB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_numberB:
-      UseVariable: 0
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    m_vectorB:
-      UseVariable: 0
-      ConstantValue: {x: 0, y: 0, z: 0, w: 0}
-      Variable: {fileID: 0}
+  m_conditions: []
+  m_luaConditions:
+  - m_expression: nA > 0
+    m_boolA: {fileID: 0}
+    m_boolB: {fileID: 0}
+    m_numberA: {fileID: 11400000, guid: f6856c996dc101f4fae8ee010fbfd755, type: 2}
+    m_numberB: {fileID: 0}
   m_boolOperations: []
   m_numberOperations: []
   m_luaNumberOperations: []

@@ -9,9 +9,9 @@ namespace Buck.Samples
 {
     public class ButtonScript : MonoBehaviour
     {
-
         Button m_button;
         [SerializeField] Condition[] m_conditions;
+        [SerializeField] LuaCondition[] m_luaConditions;
         [SerializeField] BoolOperation[] m_boolOperations;
         [SerializeField] NumberOperation[] m_numberOperations;
         [SerializeField] LuaNumberOperation[] m_luaNumberOperations;
@@ -26,7 +26,7 @@ namespace Buck.Samples
         public void OnButtonPressed()
         {
             //Double check conditions are passed (technically should be impossible since button shoudln't be interactable if they aren't)
-            if (m_conditions.PassConditions())
+            if (m_conditions.PassConditions() && m_luaConditions.PassConditions())
             {
                 //Execute each collection of operations
                 m_boolOperations.Execute();
@@ -39,7 +39,7 @@ namespace Buck.Samples
         public void OnRefreshButtonAvailable()
         {
             //Set whether the button is interactable based on if it's conditions are passed or not
-            m_button.interactable = m_conditions.PassConditions();
+            m_button.interactable = m_conditions.PassConditions() && m_luaConditions.PassConditions();
         }
     }
 }
