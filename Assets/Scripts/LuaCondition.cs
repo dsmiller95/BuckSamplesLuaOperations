@@ -1,3 +1,5 @@
+// MIT License
+
 using System;
 using System.Collections.Generic;
 using Buck;

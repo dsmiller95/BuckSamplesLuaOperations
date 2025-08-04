@@ -1,4 +1,4 @@
-// MIT License - Copyright (c) 2025 BUCK Design LLC - https://github.com/buck-co
+// MIT License
 
 using System.Collections;
 using System.Collections.Generic;
